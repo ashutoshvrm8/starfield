@@ -3,7 +3,7 @@ var stars = [];
 var speed;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(window.innerWidth, window.innerHeight);
   for (var i = 0; i < 800; i++) {
     stars[i] = new Star();
   }
