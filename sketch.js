@@ -1,5 +1,4 @@
 var stars = [];
-
 var speed;
 
 function setup() {
